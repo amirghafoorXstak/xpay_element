@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.amirghafoorXstak",
+    "module": "xpay_element",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xpay_element-1.0.0.aar",
+          "url": "xpay_element-1.0.0.aar",
+          "size": 71660,
+          "sha512": "cd2dbef0f68d9e21dec34bb09b728405e986e91cf62276b53be849afc6a0f775f476bef6f89f8a9303454bc1524935a7ad4cc2acb304ab050f5cbd11e1ad3894",
+          "sha256": "7c3e0bbeb76801eb0e8a0e2b79864cca5b6f0f43c33355687a569e05fa24b48f",
+          "sha1": "e3e4b655ccd6f8bad185dc9d9aa498c16be16c97",
+          "md5": "96ceb19862ce354621958957cd3a57cf"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "xpay_element-1.0.0.aar",
+          "url": "xpay_element-1.0.0.aar",
+          "size": 71660,
+          "sha512": "cd2dbef0f68d9e21dec34bb09b728405e986e91cf62276b53be849afc6a0f775f476bef6f89f8a9303454bc1524935a7ad4cc2acb304ab050f5cbd11e1ad3894",
+          "sha256": "7c3e0bbeb76801eb0e8a0e2b79864cca5b6f0f43c33355687a569e05fa24b48f",
+          "sha1": "e3e4b655ccd6f8bad185dc9d9aa498c16be16c97",
+          "md5": "96ceb19862ce354621958957cd3a57cf"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "xpay_element-1.0.0-sources.jar",
+          "url": "xpay_element-1.0.0-sources.jar",
+          "size": 16289,
+          "sha512": "0b57b123b54bc7c42d85dd5c284f349eca10da5866bca14d2f50fa9396322532c98ec26749b740a573490c7401b9d8320c48945b88f2d507eb44bfbe7c12fd3e",
+          "sha256": "0cad1176fa6fa13ffd018d5207c68250dc03235185e9408511656e11a76a5252",
+          "sha1": "a13ec97d8e58bce81f9874a6c91eb7b6feae0fd0",
+          "md5": "03e4583bb87e7588bc074059253e1380"
+        }
+      ]
+    }
+  ]
+}
